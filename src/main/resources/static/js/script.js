@@ -104,7 +104,7 @@ function editTrainer(id) {
     $.ajax({
         url: getContextPath() + "/getTrainer",
         type: "post",
-        timeout: 3000,
+        timeout: 1000,
         data: {
             trainerId: id
         },
@@ -133,7 +133,7 @@ function deleteTrainer(id) {
     $.ajax({
         url: getContextPath() + "/getTrainer",
         type: "post",
-        timeout: 3000,
+        timeout: 1000,
         data: {
             trainerId: id
         },
