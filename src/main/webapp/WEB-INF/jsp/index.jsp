@@ -102,7 +102,7 @@
                         />
                         <ul id="insertTrainerSubjectInputErrors" class="text-danger list-unstyled"></ul>
                     </div>
-                    <input type="hidden" id="insertTrainerId" name="trainerId" value="-1">
+                    <input type="hidden" id="insertTrainerId" name="trainerId" value="0">
                     <div class="modal-footer">
                         <span id="insertTrainerMessage" class="text-success"></span>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Discard</button>
