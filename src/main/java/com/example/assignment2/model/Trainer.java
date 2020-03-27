@@ -9,7 +9,7 @@ import java.util.Objects;
 @Table(name = "trainers", schema = "private_school")
 public class Trainer {
 
-    private int trainerId;
+    private Integer trainerId;
     private String firstName;
     private String lastName;
     private String subject;

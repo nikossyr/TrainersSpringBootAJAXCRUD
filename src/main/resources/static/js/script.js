@@ -85,6 +85,7 @@ $(document).ready(function () {
                             .prop('checked', false)
                             .prop('selected', false)
                             .removeClass('is-invalid');
+                        $("#insertTrainerId").val(0);
                     }, 100);
                     refreshTable();
 
@@ -169,6 +170,7 @@ $(document).ready(function () {
             .prop('checked', false)
             .prop('selected', false)
             .removeClass('is-invalid');
+        $("#insertTrainerId").val(0);
         $("#insertTrainerFirstNameInputErrors").empty();
         $("#insertTrainerFirstNameInput").removeClass('is-invalid').removeClass("is-valid");
         $("#insertTrainerLastNameInputErrors").empty();
