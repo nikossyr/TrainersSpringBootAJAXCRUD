@@ -1,0 +1,21 @@
+CREATE DATABASE SPRING_CRUD;
+
+USE SPRING_CRUD;
+
+CREATE TABLE TRAINERS (
+    TRAINER_ID INT NOT NULL AUTO_INCREMENT,
+    FIRST_NAME VARCHAR(45) NOT NULL,
+    LAST_NAME VARCHAR(45) NOT NULL,
+    subject VARCHAR(45),
+    PRIMARY KEY (TRAINER_ID)
+);
+
+-- # Mock data insertion queries for Trainers Table
+INSERT INTO TRAINERS VALUES (NULL, 'Giorgos', 'Mourgelas', 'Java');
+INSERT INTO TRAINERS VALUES (NULL, 'Dimitris', 'Karalis', 'Csharp');
+INSERT INTO TRAINERS VALUES (NULL, 'Eleni', 'Theodorou', 'HTML/CSS');
+INSERT INTO TRAINERS VALUES (NULL, 'Thalia', 'Efthimiou', 'Javascript');
+INSERT INTO TRAINERS VALUES (NULL, 'Kostas', 'Daskalakis', 'Java');
+INSERT INTO TRAINERS VALUES (NULL, 'Manos', 'Giotis', 'Csharp');
+
+SELECT * FROM TRAINERS;
